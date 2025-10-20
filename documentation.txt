@@ -1,0 +1,7 @@
+1. Set up a GitHub repository.
+   Under the repo, create a gitignore file
+   Run git pull from vscode to get the .gitignore file that was created
+2. Create requirements.txt, setup.py file, and a src folder > __init__.py file. Write in the requirements and setup file, then run pip install -r requirements.txt
+3. Create src > components and pipeline folder. components > __init__.py, data_ingestion.py, data_transformation.py, model_trainer.py. pipeline > train_pipeline.py, predict_pipeline.py, __init__.py
+4. Create logger.py, exception.py, and utils.py file under src folder and write in them.
+
